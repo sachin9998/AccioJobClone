@@ -365,11 +365,13 @@ main {
     font-size: 13px;
 }
 
+
+
+
 /* Placements Page */
 
 .placements {
     height: 750px;
-    border: 1px solid red;
 
     display: flex;
     flex-direction: column;
@@ -494,17 +496,62 @@ main {
     height: 750px;
 }
 
-.alumni-container {}
+.df3 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
 
-.container1 {}
+.alumni h2 {
+    color: var(--BLACK, #2B2F34);
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    /* 63px */
+    letter-spacing: -0.63px;
+}
 
-.card-container {}
+.al2 {
+    color: var(--textlabelcolorscharcoal, #595959);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 23.4px */
+    letter-spacing: 0.36px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+
+    padding: 50px 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 300px;
+
+}
 
 .card-container img {
     height: 64px;
 }
 
-.card-title {}
+.card-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
 
 .ct1 {
     color: #000;
@@ -518,10 +565,35 @@ main {
 
 .ct2 {
     color: #676767;
-    text-align: center;
+    /* text-align: center; */
     font-size: 16px;
     font-style: normal;
     font-weight: 602;
     line-height: 150%;
     /* 24px */
+}
+
+.para {
+    color: #676767;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+    text-align: justify;
+    /* display: inline; */
+}
+
+.para1 {
+    color: #676767;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+}
+
+li {
+    color: var(--primaryskyblue);
 }
