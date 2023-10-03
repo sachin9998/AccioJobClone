@@ -3,6 +3,7 @@
 :root {
     --white: #ffffff;
     --blue: #2F80ED;
+    --grey2: #4F4F4F;
 }
 
 * {
@@ -44,29 +45,88 @@ header {
     /* position: fixed; */
     display: flex;
     flex-direction: column;
-}
 
+
+}
 
 .upper-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 108px;
 }
 
 .logo {
     display: flex;
+    gap: 10px;
+
+    /* padding: 15px; */
+}
+
+.logo hr {
+    /* height: 32px; */
+    background-color: #DADADA;
+}
+
+.logo1 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nsdc-logo {
+    height: 35px;
 }
 
 /* Navbar CSS */
 
+.navbar {
+    /* padding: 15px; */
+    display: flex;
+    /* padding: 15px 36px;
+    justify-content: center;
+    align-items: center; */
+}
+
 .navbar ul {
     display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+
+    display: flex;
+    padding: 15px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    height: 20px;
+
+    border-radius: 8px;
+    border: 2px solid var(--primaryskyblue, #2F80ED);
+
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+
+    color: var(--blue);
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* Next batch starts in */
 .banner {
     background-color: var(--blue);
-    text-align: center;
+}
 
+.banner p {
     color: #FFF;
     font-family: ABeeZee;
     font-size: 14px;
@@ -77,4 +137,14 @@ header {
     letter-spacing: 0.28px;
 
     padding: 5px;
+    text-align: center;
 }
+
+/* Hero Section */
+
+main {
+    width: 1440px;
+    height: 783px;
+    flex-shrink: 0;
+}
+
