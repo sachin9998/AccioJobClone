@@ -365,6 +365,225 @@ main {
     font-size: 13px;
 }
 
+/* Courses PAge */
+.courses {
+    height: 700px;
+    background: #ECF8FF;
+}
+
+.s1 {
+    background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.s2 {
+    color: #2F80ED;
+    text-align: center;
+    /* font-family: ABeeZee; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -0.54px;
+    text-transform: capitalize;
+}
+
+.divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 9px;
+    border: 2px solid var(--primaryskyblue, #2F80ED);
+    background: #FFF;
+
+    height: 500px;
+    padding: 30px;
+}
+
+.course-heading {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-title {
+    color: var(--BLACK, #2B2F34);
+    font-family: ABeeZee;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.xyz {
+    /* display: flex;
+    gap: 10px; */
+
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    /* display: flex;
+    padding: 6px 15px; */
+
+
+
+    border-radius: 7px;
+    /* background: #E0F3FF; */
+}
+
+.xyz1 {
+    /* display: inline; */
+
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: #2f80ed;
+    font-weight: 500;
+    background-color: #e0f3ff;
+
+
+    color: #1D78B0;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.xyz11 {
+    /* display: flex;
+    gap: 10px; */
+
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    /* display: flex;
+    padding: 6px 15px; */
+
+
+
+    border-radius: 7px;
+    /* background: #E0F3FF; */
+}
+
+.xyz21 {
+    /* display: inline; */
+
+    padding: 5px 10px;
+    /* border-radius: 5px; */
+    font-weight: 500;
+    border-radius: 7px;
+    background: var(--subtle-orange, #FFEED8);
+
+
+    color: #965400;
+    ;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sac1 {
+    color: #565656;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    /* 21px */
+}
+
+.sac2 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.sac3 {
+    color: var(--BLACK, #2B2F34);
+    /* font-family: ABeeZee; */
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.course-rows {
+    /* margin-top: 10px; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* padding: 0px 20px; */
+}
+
+.course-rows p {
+    flex: 1;
+    padding: 10px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+.course-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.course-btn {
+    border-radius: 8px;
+    border: 1px solid var(--primaryskyblue, #2F80ED);
+    background: #FFF;
+
+    display: flex;
+    width: 203px;
+    padding: 14px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--primaryskyblue, #2F80ED);
+    font-family: ABeeZee;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+}
+
+.dark {
+    border-radius: 8px;
+    background: var(--primaryskyblue, #2F80ED);
+    color:var(--white);
+}
 
 
 
@@ -494,6 +713,7 @@ main {
 
 .alumni {
     height: 750px;
+    background: #FFF;
 }
 
 .df3 {
